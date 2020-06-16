@@ -1,0 +1,57 @@
+main:
+  - title: "Home"
+    url: index.html 
+  - title: "Posts"
+    url: /posts/
+  - title: "Tutorials"
+    url: /tutorials/
+    
+      
+   
+docs:
+  - title: Python
+    children:
+      - title: "Basic Python"
+        url: /intro_python/ 
+      - title: "Open Source Python GIS"
+        url: /open_source/
+      - title: "ArcPy (Terrain Analysis)"
+        url: /arcpy/
+      - title: "Geoprocessing with ArcPy"
+        url: /arcpy_geoprocessing/
+      - title: "QGIS Programming"
+        url: /qgis_programming/
+      - title: "Intermediate Python"
+        url: /intermediate_python/
+        
+        
+        
+
+  - title: Web Mapping
+    children:
+      - title: "Create a Website"
+        url: /create_website/
+      - title: "Cascading Style Sheets"
+        url: /docs/navigation/
+      - title: "JavaScript"
+        url: /javascript/
+      - title: "Open Layers"
+        url: /openlayers/
+      - title: "ArcGIS Online for Developers"
+        url: /arcgis_online/
+      - title: "Google Map and Mapbox"
+        url: /google_mapbox/
+
+
+  - title: GIS and Windows Apps
+    children:
+      - title: "Intro to C#"
+        url: /intro_c_sharp/
+      - title: "Building a Simple Map Viewer App"
+        url: /intro_mapwingis/ 
+      - title: "Extending the Map Viewer App"
+        url: /mapviewer_extended/
+      
+ 
+
+     
