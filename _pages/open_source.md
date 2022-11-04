@@ -337,7 +337,7 @@ In GIS, many operations are based on neighborhood filters. This illustration bel
     #The following code uses a user-defined function named slope1 to calculate the slope of a given line in Python.
 
     def slope1(x1,y1,x2,y2):
-        x = (y2 - y1) / (x2 - x1)
+         x = (y2 - y1) / (x2 - x1)
     return x
 
     #Now, call the function
