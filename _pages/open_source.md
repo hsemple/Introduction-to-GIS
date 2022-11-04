@@ -6,6 +6,7 @@ sidebar:
   nav: "docs" 
 ---
 
+<br>
 
 Once you have mastered basic concepts in Python, you are ready to take on working with the GIS libraries. Here is a list of some popular open source libraries used in the geospatial community. The list is in no paraticular order. Selection of a particular library depends on the task that needs to be carried out.   
 
@@ -321,6 +322,28 @@ In GIS, many operations are based on neighborhood filters. This illustration bel
 
 
 <br>
+
+
+#### Calculating Slope
+
+The mathematical formula for the slope of a given line is shown below.
+
+m = (y2-y1)/(x2-x1)
+We can create a user-defined function that implements this given formula for a given line.
+
+The following code uses a user-defined function slopee to calculate the slope of a given line in Python.
+
+def slopee(x1,y1,x2,y2):
+    x = (y2 - y1) / (x2 - x1)
+    return x
+
+print(slopee(4,5,8,10))
+The code above provides the following output.
+
+1.25
+
+
+
 
 #### Kernels for Slope Calculation
 Slope calculation in GIS requires the estimation of gradients along two axes.  Two methods for calculating gradients are the central differences method and the Horn (1981) method. The former uses the values of two neighboring cells, while the Horn (1981), suitable for rough surfaces, uses the values of six neighboring cells.
