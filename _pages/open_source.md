@@ -342,8 +342,27 @@ In GIS, many operations are based on neighborhood filters. This illustration bel
     #Now, call the function
     print(slope1(4,5,8,10))
     #Output: 1.25
+    
+    
+    <br>
+    #Calculating slope of a line with Numpy
+    import numpy as np
+    x = [4, 8]
+    y = [5, 10]
+    slope, intercept = np.polyfit(x,y,1)
+    print(slope)
 
-<br>
+    <br>
+    
+    
+    from scipy.stats import linregress
+    x = [4, 8]
+    y = [5, 10]
+    slope, intercept, r_value, p_value, std_err = linregress(x, y)
+    print(slope)
+
+
+    <br>
 
 
 #### Kernels for Slope Calculation
