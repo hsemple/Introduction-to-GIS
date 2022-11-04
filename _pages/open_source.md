@@ -146,6 +146,8 @@ The geopandas code is preferred over the code below but I include here for the i
     plt.show()
  
  <br>
+ 
+ 
   
 #### Displaying a Three-band Raster with  Rasterio
 
@@ -324,6 +326,7 @@ In GIS, many operations are based on neighborhood filters. This illustration bel
 <br>
 
 
+
 #### Calculating Slope
 
 The mathematical formula for the slope of a given line is shown below.
@@ -342,7 +345,7 @@ The code above provides the following output.
 
 1.25
 
-
+<br>
 
 
 #### Kernels for Slope Calculation
