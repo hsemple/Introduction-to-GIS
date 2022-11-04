@@ -221,6 +221,49 @@ Once Rasterio is installed, run the sample script below.
 <br>
 
 
+
+
+#### Calculating Slope of a Straight Line
+
+    #The mathematical formula for the slope of a given line is shown below.
+    
+     m = (y2-y1)/(x2-x1)
+
+    #We can create a user-defined function that implements this given formula for a given line.
+
+    def slope1(x1,y1,x2,y2):
+         x = (y2 - y1) / (x2 - x1)
+    return x
+
+    #Now, call the function
+    print(slope1(4,5,8,10))
+    #Output: 1.25
+    
+    
+   
+    #Calculating slope of a line with Numpy
+    import numpy as np
+    x = [4, 8]
+    y = [5, 10]
+    slope, intercept = np.polyfit(x,y,1)
+    print(slope)
+
+   
+    
+    #Calculating slope of a line with Scipy
+    from scipy.stats import linregress
+    x = [4, 8]
+    y = [5, 10]
+    slope, intercept, r_value, p_value, std_err = linregress(x, y)
+    print(slope)
+
+
+<br>
+
+
+
+
+
 #### Generate Hillshade Tutorials
 
 * [Generate Hillshade](https://tilemill-project.github.io/tilemill/docs/guides/terrain-data/)
@@ -327,42 +370,6 @@ In GIS, many operations are based on neighborhood filters. This illustration bel
 
 
 
-#### Calculating Slope of a Straight Line
-
-    #The mathematical formula for the slope of a given line is shown below.
-    
-     m = (y2-y1)/(x2-x1)
-
-    #We can create a user-defined function that implements this given formula for a given line.
-
-    def slope1(x1,y1,x2,y2):
-         x = (y2 - y1) / (x2 - x1)
-    return x
-
-    #Now, call the function
-    print(slope1(4,5,8,10))
-    #Output: 1.25
-    
-    
-   
-    #Calculating slope of a line with Numpy
-    import numpy as np
-    x = [4, 8]
-    y = [5, 10]
-    slope, intercept = np.polyfit(x,y,1)
-    print(slope)
-
-   
-    
-    #Calculating slope of a line with Scipy
-    from scipy.stats import linregress
-    x = [4, 8]
-    y = [5, 10]
-    slope, intercept, r_value, p_value, std_err = linregress(x, y)
-    print(slope)
-
-
-<br>
 
 
 #### Kernels for Slope Calculation
