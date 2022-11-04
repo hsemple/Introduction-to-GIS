@@ -50,6 +50,7 @@ Below, you will find code snippets for performing common tasks in GIS.
     #df.plot(cmap='Set2', figsize=(10, 10));
     plt.show()
 <br>
+<br> 
  
 
 #### Plotting a Thematic Map
@@ -72,7 +73,8 @@ Below, you will find code snippets for performing common tasks in GIS.
     #Save the map
     fig.savefig("/Users/.../map_export.png", dpi=300)
 <br>
- 
+<br>
+
 
 #### Plotting a Shapefile Using PyShp
 The geopandas code is preferred over the code below but I include here for the insights it provides into the structure of shapefiles, i.e., parts and points, and how these are accessed and manipulated.  
