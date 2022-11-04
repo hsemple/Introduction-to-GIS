@@ -1,6 +1,6 @@
 ---
 permalink: /open_source/
-title: "Open Source Python GIS"
+title: "Open Source Python GIS Libraries"
 toc: true
 sidebar:
   nav: "docs" 
