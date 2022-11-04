@@ -187,43 +187,6 @@ Rasterio has a show( ) method for displaying rasters. However, the library also 
 
 <br>
 
-#### Calculate Slope and Aspect with Rasterio
-
-First, install the rasterio library  To do so, go to the Anaconda prompt and type:
-
-conda install rasterio
-
-Once Rasterio is installed, run the sample script below.
-
- 
-
-    from osgeo import gdal
-    import numpy as np
-    import rasterio
-    import matplotlib.pyplot as plt
-
-    def calculate_slope(DEM):
-        gdal.DEMProcessing('slope.tif', DEM, 'slope')
-        with rasterio.open('slope.tif') as dataset:
-            slope = dataset.read(1)
-        return slope
-
-
-    def calculate_aspect(DEM):
-         gdal.DEMProcessing('aspect.tif', DEM, 'aspect')
-         with rasterio.open('aspect.tif') as dataset:
-              aspect = dataset.read(1)
-         return aspect
-
-    slope=calculate_slope("/Users/student/Desktop/TestDEM.tif")
-    aspect=calculate_aspect("/Users/student/Desktop/TestDEM.tif")
-
-    plt.imshow(slope, cmap='copper')
-    plt.show()
-    
-
-<br>
-
 
 
 
@@ -261,6 +224,44 @@ Once Rasterio is installed, run the sample script below.
     slope, intercept, r_value, p_value, std_err = linregress(x, y)
     print(slope)
 
+
+<br>
+
+
+
+
+#### Calculate Slope and Aspect with Rasterio
+
+First, install the rasterio library  To do so, go to the Anaconda prompt and type:
+
+conda install rasterio
+
+Once Rasterio is installed, run the sample script below.
+
+    from osgeo import gdal
+    import numpy as np
+    import rasterio
+    import matplotlib.pyplot as plt
+
+    def calculate_slope(DEM):
+        gdal.DEMProcessing('slope.tif', DEM, 'slope')
+        with rasterio.open('slope.tif') as dataset:
+            slope = dataset.read(1)
+        return slope
+
+
+    def calculate_aspect(DEM):
+         gdal.DEMProcessing('aspect.tif', DEM, 'aspect')
+         with rasterio.open('aspect.tif') as dataset:
+              aspect = dataset.read(1)
+         return aspect
+
+    slope=calculate_slope("/Users/student/Desktop/TestDEM.tif")
+    aspect=calculate_aspect("/Users/student/Desktop/TestDEM.tif")
+
+    plt.imshow(slope, cmap='copper')
+    plt.show()
+    
 
 <br>
 
