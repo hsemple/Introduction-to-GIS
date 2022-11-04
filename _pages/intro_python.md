@@ -32,7 +32,7 @@ As a beginner, you must first learn basic Python programming concepts.  Afterwar
 </ul>
 <br/>
  
-Recommended Videos and Tutorials   
+Recommended Videos and Tutorials to Master Basic Python  
 
 * <a href = "https://www.youtube.com/watch?v=yE9v9rt6ziw">Full Course Video </a>  
 * <a href = "https://www.tutorialsteacher.com/python/python-editors">TutorialsTeacher </a>  
