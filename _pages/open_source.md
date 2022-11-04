@@ -327,14 +327,13 @@ In GIS, many operations are based on neighborhood filters. This illustration bel
 
 
 
-#### Calculating Slope of aStraight Line
+#### Calculating Slope of a Straight Line
 
     #The mathematical formula for the slope of a given line is shown below.
-    m = (y2-y1)/(x2-x1)
+    
+     m = (y2-y1)/(x2-x1)
 
     #We can create a user-defined function that implements this given formula for a given line.
-
-    #The following code uses a user-defined function named slope1 to calculate the slope of a given line in Python.
 
     def slope1(x1,y1,x2,y2):
          x = (y2 - y1) / (x2 - x1)
@@ -342,7 +341,7 @@ In GIS, many operations are based on neighborhood filters. This illustration bel
 
     #Now, call the function
     print(slope1(4,5,8,10))
-    #The code above provides the following output: 1.25
+    #Output: 1.25
 
 <br>
 
