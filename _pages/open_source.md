@@ -344,7 +344,7 @@ In GIS, many operations are based on neighborhood filters. This illustration bel
     #Output: 1.25
     
     
-    <br>
+   
     #Calculating slope of a line with Numpy
     import numpy as np
     x = [4, 8]
@@ -352,9 +352,9 @@ In GIS, many operations are based on neighborhood filters. This illustration bel
     slope, intercept = np.polyfit(x,y,1)
     print(slope)
 
-    <br>
+   
     
-    
+    #Calculating slope of a line with Scipy
     from scipy.stats import linregress
     x = [4, 8]
     y = [5, 10]
@@ -362,7 +362,7 @@ In GIS, many operations are based on neighborhood filters. This illustration bel
     print(slope)
 
 
-    <br>
+<br>
 
 
 #### Kernels for Slope Calculation
