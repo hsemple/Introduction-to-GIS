@@ -10,9 +10,8 @@ sidebar:
 Once you have mastered basic concepts in Python, you are ready to take on working with the GIS libraries. Here is a list of some popular open source libraries used in the geospatial community. The list is in no paraticular order. Selection of a particular library depends on the task that needs to be carried out.   
 
 
-* [Geopandas.](https://geopandas.org/#description) Great tool. Displays shapefiles with just a few lines of code.  
-* [Rasterio.](https://rasterio.readthedocs.io/en/latest/) Simplifies working with raster datasets. 
-* [PyProj.0](https://pypi.org/project/pyproj/)  Widely used tool for cartographic transformations and geodetic computations
+* [Geopandas.](https://geopandas.org/#description) Great tool for displaying shapefiles using just a few lines of code. View and manipulate attribute tables with ease.  * [Rasterio.](https://rasterio.readthedocs.io/en/latest/) Simplifies manipulating with raster datasets. 
+* [PyProj.0](https://pypi.org/project/pyproj/)  Widely used for cartographic transformations and geodetic computations
 * [Cartopy.](https://scitools.org.uk/cartopy/docs/latest/index.html) Cartography library
 * [Fiona.](https://pypi.org/project/Fiona/) Reads and write spatial data. 
 * [Shapely.](https://pypi.org/project/Shapely/) Great for reading and writing spatial data.
@@ -27,18 +26,7 @@ Once you have mastered basic concepts in Python, you are ready to take on workin
 * [PyGeoprocessing](https://pypi.org/project/pygeoprocessing/). Great for raster processing.
 
 <br>
-Below, you will find links and code snippets to common tasks in GIS that are made possible using these libraries.  
-
-### Short Course and Tutorials
-* [Short Course in manipulating Python Geospatial Libraries](https://automating-gis-processes.github.io/CSC18/lessons/L1/Intro-Python-GIS.html)
-* [Intro to Coordinate Reference Systems in Python](https://www.earthdatascience.org/courses/use-data-open-source-python/intro-vector-data-python/spatial-data-vector-shapefiles/intro-to-coordinate-reference-systems-python/)
-* [Plotting Coordinates](https://idlecoding.com/transverse-mercator-with-python/)
-* [Table Joins](https://www.dataquest.io/blog/pandas-concatenation-tutorial/)
-* [GIS data access and manipulation with Python](https://www.e-education.psu.edu/geog485/node/253) 
-* [About Vector Data](https://www.earthdatascience.org/courses/use-data-open-source-python/intro-vector-data-python/spatial-data-vector-shapefiles/)
-
-<br>
-
+Below, you will find code snippets for performing common tasks in GIS.  
 
 ### Code Snippets
 
@@ -372,4 +360,18 @@ dz/dy = [ (Elev(i - 1, j-1) + 2 Elev(i - 1, j) + Elev(i - 1, j+1)) - (Elev(i + 1
 
 ####  Raster Site Selection Tutorials
 * [Site Selection Analysis](https://developers.arcgis.com/python/sample-notebooks/calculating-cost-surfaces-using-weighted-overlay-analysis/)
+
+
+<br>
+
+### Short Course and Tutorials
+* [Short Course in manipulating Python Geospatial Libraries](https://automating-gis-processes.github.io/CSC18/lessons/L1/Intro-Python-GIS.html)
+* [Intro to Coordinate Reference Systems in Python](https://www.earthdatascience.org/courses/use-data-open-source-python/intro-vector-data-python/spatial-data-vector-shapefiles/intro-to-coordinate-reference-systems-python/)
+* [Plotting Coordinates](https://idlecoding.com/transverse-mercator-with-python/)
+* [Table Joins](https://www.dataquest.io/blog/pandas-concatenation-tutorial/)
+* [GIS data access and manipulation with Python](https://www.e-education.psu.edu/geog485/node/253) 
+* [About Vector Data](https://www.earthdatascience.org/courses/use-data-open-source-python/intro-vector-data-python/spatial-data-vector-shapefiles/)
+
+<br>
+
 
