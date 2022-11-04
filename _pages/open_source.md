@@ -49,7 +49,7 @@ Below, you will find code snippets for performing common tasks in GIS.
     #or
     #df.plot(cmap='Set2', figsize=(10, 10));
     plt.show()
-<br>
+
 <br> 
  
 
@@ -72,8 +72,9 @@ Below, you will find code snippets for performing common tasks in GIS.
 
     #Save the map
     fig.savefig("/Users/.../map_export.png", dpi=300)
+    
 <br>
-<br>
+
 
 
 #### Plotting a Shapefile Using PyShp
