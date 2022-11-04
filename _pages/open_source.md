@@ -7,8 +7,6 @@ sidebar:
 ---
 
 
-
-### Open Source GIS Libraries
 Once you have mastered basic concepts in Python, you are ready to take on working with the GIS libraries. Here is a list of some of the popular open source libraries used in the geospatial community. The list is in no paraticular order. Selection of particular libraries depend on the task that needs to be carried out.   
 
 
