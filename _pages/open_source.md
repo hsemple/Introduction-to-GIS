@@ -31,6 +31,7 @@ Below, you will find code snippets for performing common tasks in GIS.
 
 ### Code Snippets
 
+<br>
 #### Reading and Displaying a Shapefiles Using Geopandas
 
     import matplotlib.pyplot as plt
