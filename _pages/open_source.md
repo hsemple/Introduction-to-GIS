@@ -7,7 +7,7 @@ sidebar:
 ---
 
 
-Once you have mastered basic concepts in Python, you are ready to take on working with the GIS libraries. Here is a list of some of the popular open source libraries used in the geospatial community. The list is in no paraticular order. Selection of particular libraries depend on the task that needs to be carried out.   
+Once you have mastered basic concepts in Python, you are ready to take on working with the GIS libraries. Here is a list of some popular open source libraries used in the geospatial community. The list is in no paraticular order. Selection of a particular library depends on the task that needs to be carried out.   
 
 
 * [Geopandas.](https://geopandas.org/#description) Great tool. Displays shapefiles with just a few lines of code.  
@@ -38,6 +38,7 @@ Below, you will find links and code snippets to common tasks in GIS that are mad
 * [About Vector Data](https://www.earthdatascience.org/courses/use-data-open-source-python/intro-vector-data-python/spatial-data-vector-shapefiles/)
 
 <br>
+
 
 ### Code Snippets
 
