@@ -15,20 +15,20 @@ As a beginner, you must first develop basic Python programming skills.  Afterwar
 <li> <a href = "https://docs.anaconda.com/anaconda/user-guide/tasks/install-packages/"> Installing packages using Conda </a> </li>
 <li> Variables and variable assignment.   <a href = "https://www.youtube.com/watch?v=yj3Uopm6XvY"> YouTube Video</a>.</li>
 <li> Data types - strings, integers, floats, lists, tuples, dictionaries </li>
-  <li> <a href = "https://realpython.com/python-string-formatting/"> String formatting </a></li>
-<li> Casting </li>
+<li> <a href = "https://realpython.com/python-string-formatting/"> String formatting </a></li>
+<li> <a href = "https://codehs.com/tutorial/evelyn/casting-in-python">Type Casting </a></li>
 <li> Modules, Standard and third-party libraries  </li>
 <li> Creating and running simple programs </li>
-<li>	Conditional statements </li>
-<li>  While Loops, For Loops  </li>
-<li>  Functions  </li>
-<li>  File handling  </li>
-<li>  Plotting graphs using Matplotlib, Pandas, etc  </li>
-<li>  List Comprehension  </li>
-<li>	Arrays  </li>
-<li>	Classes/Objects;  Inheritance </li>
-<li>  Exceptions Handling </li>
-<li>  Debugging  </li>
+<li> Conditional statements </li>
+<li> While Loops, For Loops  </li>
+<li> Functions  </li>
+<li> File handling  </li>
+<li> Plotting graphs using Matplotlib, Pandas, etc  </li>
+<li> List Comprehension  </li>
+<li> Arrays  </li>
+<li> Classes/Objects;  Inheritance </li>
+<li> Exceptions Handling </li>
+<li> Debugging  </li>
 </ul>
 <br/>
  
