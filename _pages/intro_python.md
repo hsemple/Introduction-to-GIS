@@ -11,11 +11,11 @@ Python programming in GIS works by using the Python language to manipulate spati
 As a beginner, you must first develop basic Python programming skills.  Afterwards, use this knowledge and skill to work with Python GIS libraries to accomplish specific GIS tasks.  Below, I list some of the basic Python concepts that must be first mastered before you can work successfully with the GIS libraries.  
 
 <ul>
-<li> Downloading and installing a Python distribution. I suggest that you download and install the<a href = "https://www.anaconda.com/products/individual">Anaconda Distribution</a> </li>
-  <li> Installing libraries using Conda </li>
+<li> <a href="https://problemsolvingwithpython.com/01-Orientation/01.03-Installing-Anaconda-on-Windows/"> Downloading and installing a Python distribution. </a> I suggest that you download and install the <a href = "https://www.anaconda.com/products/individual">Anaconda Distribution</a> </li>
+<li> <a href = "https://docs.anaconda.com/anaconda/user-guide/tasks/install-packages/"> Installing packages using Conda </a> </li>
 <li> Variables and variable assignment.   <a href = "https://www.youtube.com/watch?v=yj3Uopm6XvY"> YouTube Video</a>.</li>
 <li> Data types - strings, integers, floats, lists, tuples, dictionaries </li>
-<li> String formatting </li>
+  <li> <a href = "https://realpython.com/python-string-formatting/"> String formatting </a></li>
 <li> Casting </li>
 <li> Modules, Standard and third-party libraries  </li>
 <li> Creating and running simple programs </li>
