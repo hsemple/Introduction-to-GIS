@@ -8,15 +8,15 @@ sidebar:
 
 
 
-[MapWinGIS](https://github.com/MapWindow/MapWinGIS/releases) is an ActiveX control that enables developers to integrate GIS functionalities into their Windows applications.  It is part of the [MapWindow GIS Project](https://www.mapwindow.org/) and has been around for several years. It is thus very stable with lots of users. 
+[MapWinGIS](https://github.com/MapWindow/MapWinGIS/releases) is an ActiveX control that enables developers to integrate GIS functionalities into their Windows applications.  It is part of the [MapWindow GIS Project](https://www.mapwindow.org/) and has been around for several years. 
 <p>
-While the technical documentation for the control is available, documentation to help people get started who are new to programming is sparse. This project seeks to fill this gap by providing introductory tutorials and code for people to get started with the control. This is the first in a set of tutorials that will be forthcoming.</p>
+While the technical documentation for the control is available, documentation to help people get started who are new to programming is sparse. This tutorial is aimed at helping people get started with the control.</p>
 
 
 
 ### Building a Simple Map Viewer Application
 
-Let's illustrate how to use MapWinGIS by building a simple map viewer application. This application will allow us to view shapefiles using our own custom map viewer. I am using VB.Net for coding, but the codes can be easily converted to c#.
+Let's illustrate how to start using MapWinGIS by building a simple map viewer application. This application will allow us to view shapefiles using our own custom map viewer. I am using VB.Net for coding, but the codes can be easily converted to C#.
   
 1. Start Visual Studio and Create a new project. 
 
