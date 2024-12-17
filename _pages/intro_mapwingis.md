@@ -145,7 +145,8 @@ Let's illustrate how to start using MapWinGIS by building a simple map viewer ap
     
     ![image](https://user-images.githubusercontent.com/8826424/82833545-43e65500-9e8c-11ea-8f12-043129b68702.png)
     
-
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 
     
 ## Section 2. Displaying the Shapefile's Attribute Table  
@@ -260,7 +261,8 @@ Let's illustrate how to start using MapWinGIS by building a simple map viewer ap
 
 
 
-
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 
 ##  Section 3. Compiling Your Application
 
