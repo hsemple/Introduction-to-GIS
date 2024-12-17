@@ -11,7 +11,8 @@ sidebar:
 [MapWinGIS](https://github.com/MapWindow/MapWinGIS/releases) is an ActiveX control that enables developers to integrate GIS functionalities into their Windows applications.  It is part of the [MapWindow GIS Project](https://www.mapwindow.org/) and has been around for several years. 
 <p>
 While the technical documentation for the control is available, documentation to help people get started who are new to programming is sparse. This tutorial is aimed at helping people get started with the control.</p>
-
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 
 
 ### Building a Simple Map Viewer Application
