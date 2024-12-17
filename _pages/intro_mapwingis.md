@@ -6,7 +6,7 @@ sidebar:
 ---
 
 
-
+<p>&nbsp;</p>
 
 [MapWinGIS](https://github.com/MapWindow/MapWinGIS/releases) is an ActiveX control that enables developers to integrate GIS functionalities into their Windows applications.  It is part of the [MapWindow GIS Project](https://www.mapwindow.org/) and has been around for several years. 
 <p>
