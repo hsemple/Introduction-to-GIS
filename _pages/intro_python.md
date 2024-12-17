@@ -5,6 +5,7 @@ sidebar:
   nav: "docs" 
 ---
 
+<p>&nbsp;</p>
 
 Python programming in GIS works by using the Python language to manipulate spatial objects contained in the large number of Python-based GIS libraries that are available. 
 
